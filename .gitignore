@@ -150,3 +150,31 @@ vite.config.ts.timestamp-*
 
 # Claude Code personal settings
 .claude/settings.local.json
+
+# --- Governance: secrets and local state (never commit) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+
+# Terraform state and variables
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.example.tfvars
+
+# Claude Code personal settings
+.claude/settings.local.json
+.claude/*.local.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
