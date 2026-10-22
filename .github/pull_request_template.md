@@ -36,6 +36,11 @@ Does this change touch any of the following? If yes, tick it and request a secur
 - [ ] Infrastructure, pipelines or AI-assistant configuration
 - [ ] AI/LLM feature or prompt
 
+**Threat model:** update `docs/security/threat-model.md` in this PR if anything above is ticked.
+If security-sensitive files changed but the threat is unchanged, tick this and explain below:
+
+- [ ] Threat model: no update needed
+
 **Threat considerations / mitigations:**
 <!-- Brief STRIDE notes for anything ticked above, or "None". -->
 

@@ -26,3 +26,6 @@
 **/rbac/                  @Adactin-Group/security-reviewers
 **/security/              @Adactin-Group/security-reviewers
 **/migrations/            @Adactin-Group/leads
+
+# Threat model
+/docs/security/          @Adactin-Group/security-reviewers
