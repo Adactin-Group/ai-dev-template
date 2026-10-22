@@ -106,6 +106,8 @@ Create `protect-main` (target: default branch), then copy it as `protect-dev` (t
 - [ ] OpenSpec telemetry off: `openspec config set telemetry.enabled false`
 - [ ] 2FA on every GitHub account
 - [ ] Each developer has read `CLAUDE.md` and the AI acceptable-use rules
+- [ ] gitleaks installed: `winget install --id Gitleaks.Gitleaks -e` (Mac: `brew install gitleaks`)
+- [ ] Pre-commit hooks enabled once per clone: `git config core.hooksPath .githooks` (first line of defence; `git commit --no-verify` skips it, so GitHub push protection is the backstop)
 
 ## 11. First change
 
