@@ -112,3 +112,5 @@ Create `protect-main` (target: default branch), then copy it as `protect-dev` (t
 ## 11. First change
 
 - [ ] First feature raised with `/opsx:propose`, reviewed by a human, merged by pull request
+
+- [ ] Commit signing set up (SSH signing key added to GitHub as a *signing* key; `commit.gpgsign true`) - required once 'Require signed commits' is on
